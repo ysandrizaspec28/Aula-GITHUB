@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(0, 162, 255, 0.219) ;
+}
+
+.galeria{
+    display: flex; 
+    gap: 7px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria div{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    max-width: 200px;
+    border-radius: 3px;
+    padding: 10px;
+    width: 200px;
+    border: rgb(0, 131, 206) 5px solid;
+    background-color: rgba(255, 255, 255, 0.511);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    color: rgb(0, 162, 255);
+}
+
+ .card{
+    align-items: center;
+    max-width: 200px;
+    border: 5px solid rgba(255, 255, 255, 0.568);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 230px;
+    box-shadow: 0 6px 15px rgba(199, 193, 193, 0.726);
+ }
+
+ p {
+    margin: auto;
+ }
+
